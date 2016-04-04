@@ -26,4 +26,4 @@ cp -r ../docker/deb_tree statsite/debian/
 cd statsite/
 
 # Build .deb
-debuild -us -uc
+debuild -us -uc -S
