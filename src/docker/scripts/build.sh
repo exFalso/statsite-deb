@@ -20,7 +20,6 @@ bzr whoami "bugs@bunny.com"
 echo s | bzr dh-make statsite 0.7.1 ./v0.7.1.tar.gz
 
 # Adjust templates
-sed -i "s/unknown <bugsbunny@unknown>/$NAME <$EMAIL>/" changelog
 cp ../docker/debian/* statsite/debian/
 cp -r ../docker/deb_tree statsite/debian/
 
