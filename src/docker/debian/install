@@ -1,0 +1,3 @@
+statsite /usr/bin
+debian/deb_tree/etc/init/statsite.conf /etc/init
+debian/deb_tree/etc/statsite.ini /etc
